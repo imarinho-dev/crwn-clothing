@@ -20,7 +20,7 @@ const Navigation = () => {
 		<Fragment>
 			<div className="w-full">
 				<div className="container mx-auto flex justify-between h-[70px] mb-6">
-					<Link className="h-full w-20 p-6 " to="/">
+					<Link className="h-16 w-16 flex justify-center items-center " to="/">
 						<CrwnLogo className="logo" />
 					</Link>
 					<div className="flex justify-end items-center w-1/2 h-full">
