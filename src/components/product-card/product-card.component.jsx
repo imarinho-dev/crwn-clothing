@@ -10,7 +10,7 @@ const ProductCard = ({ product }) => {
 	const addProductToCart = () => addItemToCart(product);
 
 	return (
-		<div className="transition-all w-full flex flex-col h-[350px] items-center justify-center relative group">
+		<div className="transition-all w-full flex flex-col h-[350px] my-0 items-center justify-center relative group">
 			<img
 				className="w-full h-[95%] object-cover mb-[5px] hover:opacity-80 transition-all"
 				src={imageUrl}

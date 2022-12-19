@@ -17,9 +17,11 @@ const CartDropdown = () => {
 	return (
 		<div className="absolute w-60 h-[340px] flex flex-col p-5 border border-solid border-black bg-white top-[90px] right-10 z-10">
 			<div className="h-60 flex flex-col overflow-auto">
-				{cartItems.map((item) => (
-					<CartItem cartItem={item} key={item.id} />
-				))}
+				{cartItems.length ? (
+					cartItems.map((item) => <CartItem cartItem={item} key={item.id} />)
+				) : (
+					<span className="m-[50px_auto]">Your cart is empty!</span>
+				)}
 			</div>
 			<Button buttonStyle="text-[12px]" onClick={goToCheckoutHandler}>
 				GO TO CHECKOUT
