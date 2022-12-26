@@ -1,7 +1,9 @@
 {
-	"routes": [
-		{ "handle": "filesystem" },
-		{ "src": "/(.*)", "status": 404, "dest": "/index.html" },
-		{ "src": "/(.*)", "status": 200, "dest": "/index.html" }
+	"redirects": [
+		{
+			"source": "/(.*)",
+			"destination": "https://https://crwn-clothing-iran.vercel.app",
+			"permanent": true
+		}
 	]
 }
