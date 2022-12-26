@@ -1,9 +1,0 @@
-{
-	"redirects": [
-		{
-			"source": "/(.*))",
-			"destination": "crwn-clothing-eta-lime.vercel.app",
-			"statusCode": 200
-		}
-	]
-}
