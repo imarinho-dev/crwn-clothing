@@ -1,12 +1,6 @@
 {
-	"rewrites": [
-		{
-			"source": "/(.*)",
-			"destination": "/index.html"
-		},
-		{
-			"source": "/(.*)",
-			"destination": "https://https://crwn-clothing-iran.vercel.app"
-		}
+	"routes": [
+		{ "handle": "filesystem" },
+		{ "src": "/(.*)", "status": 404, "dest": "/index.html" }
 	]
 }
